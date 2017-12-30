@@ -1,0 +1,29 @@
+html * {
+  box-sizing: border-box;
+}
+
+.All_images{
+  display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 90%;
+margin: auto;
+}
+
+
+.colonne{
+  flex: 1 0 20%;
+
+}
+
+.image{
+  padding: 30px;
+position: relative;
+}
+
+
+
+.image_vignette{
+  max-width: 100%;
+height: auto;
+}
