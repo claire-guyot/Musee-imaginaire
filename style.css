@@ -1,3 +1,6 @@
+/*Commentaires*/
+
+
 html * {
   box-sizing: border-box;
 }
@@ -26,4 +29,34 @@ position: relative;
 .image_vignette{
   max-width: 100%;
 height: auto;
+}
+
+
+/*Pages images*/
+
+.texte{
+  width: 30%;
+max-width: 400px;
+margin: 20px;
+}
+
+.imageseule{
+  max-height: 100vh;
+
+}
+
+.defilement{
+  display: flex;
+  flex-direction: column ;
+  margin: auto;
+
+}
+
+.image_defilement{
+  max-width: 100px;
+  padding: 10px;
+}
+.ensemble{
+display: flex;
+align-items: center;
 }
