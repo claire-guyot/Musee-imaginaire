@@ -31,6 +31,9 @@ position: relative;
 height: auto;
 }
 
+.choix{
+  cursor: pointer;
+}
 
 /*Pages images*/
 
