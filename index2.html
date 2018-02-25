@@ -1,0 +1,457 @@
+<!--  Commentaires -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Musée imaginaire</title>
+  </head>
+  <body>
+      <div>
+	<input class="choix" type="checkbox" id="secret" name="secret" value="secret">
+	<label for="secret">Percer le secret</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="imaginaire" name="imaginaire" value="imaginaire">
+	<label for="imaginaire">Explorer l'imaginaire</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="avenir" name="avenir" value="avenir">
+	<label for="avenir">Anticiper l'avenir</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="enfance" name="enfance" value="enfance">
+	<label for="enfance">Replonger en enfance</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="ciel" name="ciel" value="ciel">
+	<label for="ciel">Découvrir le ciel</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="histoire" name="histoire" value="histoire">
+	<label for="histoire">Témoigner de l'Histoire</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="monde" name="monde" value="monde">
+	<label for="monde">Écrire le monde</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="aventure" name="aventure" value="aventure">
+	<label for="aventure">Partir à l'aventure</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="etrange" name="etrange" value="etrange">
+	<label for="aventure">Étrange</label>
+      </div>
+      <div>
+	<input class="choix" type="checkbox" id="vrai" name="vrai" value="vrai">
+	<label for="vrai">Vu en vrai</label>
+      </div>
+    <section class="All_images">
+      <div class="colonne">
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail imaginaire histoire monde __toto __titi __tutu" src="JPEG/alchemy_tankard.jpg" alt="alchemy_tankard">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde" src="JPEG/alde_manuce1.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai histoire monde" src="JPEG/alde_manuce2.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde __toto" src="JPEG/alverata_unger.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret histoire monde __titi aventure" src="JPEG/angkor.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai imaginaire avenir ciel histoire monde" src="JPEG/astronomicon1.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail __tutu essai  histoire vrai" src="JPEG/balzac_rodin.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire histoire etrange" src="JPEG/balzac_steinchen.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire __toto avenir vrai __titi" src="JPEG/blade_runner1.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire avenir vrai" src="JPEG/blade_runner2.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail __tutu __toto essai  enfance histoire vrai" src="JPEG/buste_auguste.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire avenir histoire monde etrange" src="JPEG/carnets_vinci.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  monde aventure vrai __tutu __titi" src="JPEG/cent_pages.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire avenir ciel aventure vrai" src="JPEG/chant_oublies5.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance aventure vrai" src="JPEG/chateau_ciel.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret enfance histoire monde vrai" src="JPEG/chauvet.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret enfance histoire vrai" src="JPEG/chauvet2.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret histoire monde aventure" src="JPEG/codex_mendoza.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire monde etrange " src="JPEG/codex_seraphinianus.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde" src="JPEG/colonne_trajane.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire histoire etrange" src="JPEG/cri_munch.jpg" alt="">
+	</article>
+      </div>
+      <div class="colonne">
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance histoire vrai" src="JPEG/crussol.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde" src="JPEG/daguerre_photo.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret histoire monde etrange " src="JPEG/disque_phaistos.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance  monde aventure vrai" src="JPEG/douanier_rousseau.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance aventure vrai" src="JPEG/ellana.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance vrai" src="JPEG/elmer.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire enfance etrange" src="JPEG/escher.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire avenir  etrange vrai" src="JPEG/extra_fantomes.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire enfance monde etrange vrai" src="JPEG/facteur_cheval.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire etrange vrai" src="JPEG/fauna_fontcuberta.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance etrange vrai" src="JPEG/fontaine_pompidou.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret    ciel etrange vrai" src="JPEG/fontcuberta_constellations3.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   avenir histoire monde" src="JPEG/futura.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai     histoire monde" src="JPEG/g_baskerville.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai    enfance histoire etrange vrai" src="JPEG/Gaudi_parc.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire aventure etrange vrai" src="JPEG/grand_budapest_hotel.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde" src="JPEG/guernica.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire aventure vrai" src="JPEG/h_burns.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   avenir histoire monde vrai" src="JPEG/helvetica_film.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire avenir histoire monde vrai" src="JPEG/helvetica.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde" src="JPEG/history bilak2.png" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai    enfance histoire monde aventure" src="JPEG/hokusai_vague.jpg" alt="">
+	</article>
+      </div>
+      <div class="colonne">
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   avenir ciel monde vrai" src="JPEG/hubert_reeves.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   enfance  histoire aventure vrai" src="JPEG/hubert_robert.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   enfance histoire monde vrai" src="JPEG/hugo_ndp.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai    enfance histoire vrai" src="JPEG/joconde.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire histoire monde vrai" src="JPEG/john_giorno.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   enfance histoire aventure vrai" src="JPEG/johnston.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire avenir enfance ciel aventure etrange vrai" src="JPEG/jules_verne1.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  etrange" src="JPEG/karloff.png" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret avenir monde etrange" src="JPEG/Kryptos.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire etrange" src="JPEG/kusama.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire enfance ciel aventure vrai" src="JPEG/livre_etoiles.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde aventure" src="JPEG/lunch_skyscraper.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance monde etrange" src="JPEG/magritte_chateau.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde etrange" src="JPEG/malevitch.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde etrange" src="JPEG/manray.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire histoire monde etrange" src="JPEG/manuscrit_voynich.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   enfance histoire etrange vrai" src="JPEG/marat.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   monde etrange " src="JPEG/martin_parr.jpg" alt="">
+	</article>
+      </div>
+      <div class="colonne">
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai    histoire monde etrange" src="JPEG/mason_barnbrook.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai    monde " src="JPEG/matrix_zuzanna.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai    enfance  histoire monde aventure etrange vrai" src="JPEG/momie.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire histoire monde etrange" src="JPEG/mondrian.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde " src="JPEG/morris.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret  avenir enfance ciel histoire monde aventure etrange" src="JPEG/nasa_lune.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire avenir ciel monde aventure etrange " src="JPEG/nasa_posters2.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire avenir ciel histoire monde aventure etrange" src="JPEG/nazca.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret  enfance ciel monde aventure etrange" src="JPEG/nebuleuse.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire aventure vrai" src="JPEG/neiges_kilimandjaro.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance histoire monde vrai" src="JPEG/notre_dame.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance histoire monde aventure etrange vrai" src="JPEG/odyssee.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire histoire etrange vrai" src="JPEG/ophelia_millais.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde aventure vrai" src="JPEG/penguin_classic.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai imaginaire avenir enfance ciel monde aventure etrange vrai" src="JPEG/petit_prince.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire avenir enfance ciel aventure vrai" src="JPEG/phaenomen.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai enfance histoire monde " src="JPEG/picasso_doisneau.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire  enfance  histoire monde aventure " src="JPEG/picsou_barks.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret  enfance histoire monde aventure vrai" src="JPEG/pierre_rosette.png" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde etrange vrai" src="JPEG/pmillot_beckett1.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret imaginaire avenir enfance ciel monde aventure vrai" src="JPEG/princes_minuit.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire monde " src="JPEG/Priori_barnbrook.jpg" alt="">
+	</article>
+      </div>
+      <div class="colonne">
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance monde aventure etrange vrai" src="JPEG/richard_long.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance  histoire monde  " src="JPEG/riches_heures_berry.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai histoire monde etrange " src="JPEG/rodin_steinchen.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire" src="JPEG/romain_roi.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance histoire monde etrange vrai" src="JPEG/Sagrada_Familia.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire enfance aventure vrai" src="JPEG/seigneur_anneaux.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   enfance histoire monde vrai" src="JPEG/sol_pompei.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  histoire etrange" src="JPEG/soulages_conques.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai monde aventure etrange" src="JPEG/spiral_jetty.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai imaginaire monde aventure etrange vrai" src="JPEG/stjohn_perse2.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance histoire monde etrange vrai" src="JPEG/tate_logo.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai imaginaire enfance aventure vrai" src="JPEG/terre_dragon.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai imaginaire enfance vrai" src="JPEG/trois_brigands.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai enfance histoire monde etrange vrai" src="JPEG/vanite.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai enfanc histoire monde" src="JPEG/venus_willdendorf.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance histoire monde vrai" src="JPEG/versailles.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai secret avenir ciel histoire monde etrange " src="JPEG/voyager.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai imaginaire enfance ciel aventure " src="JPEG/voyageur_nuages.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   monde" src="JPEG/walker_art_center.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  enfance ciel histoire " src="JPEG/wright_planetaire.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai  imaginaire histoire monde aventure etrange vrai" src="JPEG/wuthering_heights.jpg" alt="">
+	</article>
+	<article class="image">
+          <img onclick="showAsSingleImage(this);return false;" class="index_thumbnail essai   histoire monde vrai" src="JPEG/zola_oeuvre.jpg" alt="">
+	</article>
+      </div>
+    </section>
+    <script src="scripts/script_common.js" charset="utf-8"></script>
+    <script src="scripts/script_index.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+    var windowSize = -1;
+      var nColonnes = 5;
+      var projets = document.querySelectorAll('.image');
+      var colonnes = document.querySelectorAll('.colonne');
+
+      function getWindowSize() {
+        windowSize = window.innerWidth;
+      };
+
+      getWindowSize();
+      handleWindowSize();
+      dimensionColonnes();
+      window.addEventListener('resize', function() {
+        getWindowSize();
+        handleWindowSize();
+      });
+
+      function dimensionColonnes() {
+        var usefulColumns = Array.from(colonnes).slice(0, nColonnes);
+        var projectsArray = Array.from(projets);
+        var nColumns = usefulColumns.length;
+        var nProjects = projectsArray.length;
+        var nProjByColumn =  Math.round((nProjects % 2 === 0 ? nProjects : nProjects + 1) / nColumns);
+        var currentColumn = 0;
+        projectsArray.forEach(function(projet, index) {
+          if (index !== 0 && index % nProjByColumn === 0) {
+            currentColumn += 1;
+          }
+          usefulColumns[currentColumn].appendChild(projet);
+        });
+      }
+
+      function handleWindowSize() {
+        if (windowSize > 1000) {
+          if (nColonnes !== 5) {
+            nColonnes = 5;
+            dimensionColonnes();
+          }
+          return;
+        }
+
+        if (windowSize < 1000 && windowSize > 700) {
+          if (nColonnes !== 4) {
+            nColonnes = 4;
+            dimensionColonnes();
+          }
+          return;
+        }
+        if (windowSize < 700 && windowSize > 550) {
+          if (nColonnes !== 3) {
+            nColonnes = 3;
+            dimensionColonnes();
+          }
+          return;
+        }
+
+          if (windowSize < 550 && windowSize > 400) {
+            if (nColonnes !== 2) {
+              nColonnes = 2;
+              dimensionColonnes();
+            }
+            return;
+        }
+        if (windowSize < 400) {
+          if (nColonnes !== 1) {
+            nColonnes = 1;
+            dimensionColonnes();
+          }
+          return;
+        }
+}
+
+    </script>
+  </body>
+</html>

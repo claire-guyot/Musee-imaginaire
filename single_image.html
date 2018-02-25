@@ -1,0 +1,386 @@
+<DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Dans mon musée imaginaire</title>
+  <script>
+  function set_image_location() {
+    var l_file = sessionStorage.getItem("storageKey_imageFile");
+    var l_image = document.getElementById ("displayed_image");
+    l_image.setAttribute("src",l_file);
+  }
+</script>
+  </head>
+  <a class="accueil" href="index2.html">Accueil</a>
+  <body onload="set_image_location()">
+<!--
+    <script type="text/javascript">
+      var l_imageLegend = sessionStorage.getItem("storageKey_imageLegend");
+      document.write(l_imageLegend);
+    </script>
+-->
+    <!-- the main image of the page: "src" is set via the
+    set_image_location function -->
+  <div>
+    <img id="displayed_image" src="" alt="...loading...">
+    </div>
+
+    <div class="row">
+<div class="column">
+  <img class="demo cursor imaginaire histoire monde __typo" src="JPEG/alchemy_tankard.jpg"   onclick="showAsSingleImage(this, true)" alt="alchemy_tankard">
+<div class="legende_image">
+    <div class="legende_texte">
+            <ul>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+		<li> blablabla </li>
+              </ul>
+            </div>
+        </div>
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde __typo" src="JPEG/alde_manuce1.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+<div class="legende_texte">
+  <div class="infos">
+    <p>Portrait d'Alde Manuce, en buste, de profil dirigé à droite</p>
+    <p>Entre 1569 et 1576</p>
+    <p>Rota, Martinus Sibenicensis (1520?-1583)</p>
+    <p>Taille</p>
+    <p> gravure au burin</p>
+    <p>Lieu</p>
+    <p>Époque de découverte</p>
+    <p>Source : Bibliothèque nationale de France, département Estampes et photographie</p>
+<p>Catégories</p>
+
+    </div>
+      <div class="pourquoi">
+        <p>Bla bla pourquoi
+</p>
+  </div>
+</div>
+
+</div>
+<div class="column">
+<img class="demo cursor   histoire monde __typo" src="JPEG/alde_manuce2.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde __typo __antiquite" src="JPEG/alverata_unger.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret histoire monde __archi aventure __chateau" src="JPEG/angkor.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   imaginaire avenir ciel histoire monde  __livre" src="JPEG/astronomicon1.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor      histoire vrai __rodin __sculpture __sculpturehumain" src="JPEG/balzac_rodin.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire histoire etrange __photo __photopionnier __rodin" src="JPEG/balzac_steinchen.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire   avenir vrai __film" src="JPEG/blade_runner1.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire avenir vrai __film" src="JPEG/blade_runner2.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor        enfance histoire vrai __sculpture __sculpturehumain __antiquite" src="JPEG/buste_auguste.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire avenir histoire monde etrange __collection _vinci __mort" src="JPEG/carnets_vinci.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    monde aventure vrai __collection __livre" src="JPEG/cent_pages.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire avenir ciel aventure vrai  __livre" src="JPEG/chant_oublies5.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance aventure vrai __film __chateau" src="JPEG/chateau_ciel.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret enfance histoire monde vrai __prehistoire __points" src="JPEG/chauvet.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret enfance histoire vrai __prehistoire" src="JPEG/chauvet2.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret histoire monde aventure __collection" src="JPEG/codex_mendoza.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire monde etrange __collection " src="JPEG/codex_seraphinianus.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde __sculpture __antiquite" src="JPEG/colonne_trajane.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire histoire etrange" src="JPEG/cri_munch.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance histoire vrai __archi __chateau" src="JPEG/crussol.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde __photo __photopionnier" src="JPEG/daguerre_photo.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret histoire monde etrange __antiquite " src="JPEG/disque_phaistos.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance  monde aventure vrai" src="JPEG/douanier_rousseau.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance aventure vrai __livre" src="JPEG/ellana.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance vrai " src="JPEG/elmer.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire enfance etrange" src="JPEG/escher.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire avenir  etrange vrai  __livre __collection" src="JPEG/extra_fantomes.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire enfance monde etrange vrai __archi __chateau" src="JPEG/facteur_cheval.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire etrange vrai __photopionnier __photo __collection" src="JPEG/fauna_fontcuberta.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance etrange vrai __sculpture" src="JPEG/fontaine_pompidou.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret    ciel etrange vrai __photo __photopionnier __photoespace" src="JPEG/fontcuberta_constellations3.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     avenir histoire monde __typo" src="JPEG/futura.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor       histoire monde __typo" src="JPEG/g_baskerville.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire aventure etrange vrai __film" src="JPEG/grand_budapest_hotel.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde" src="JPEG/guernica.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire aventure vrai" src="JPEG/h_burns.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     avenir histoire monde vrai __film" src="JPEG/helvetica_film.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire avenir histoire monde vrai __typo" src="JPEG/helvetica.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde __typo" src="JPEG/history bilak2.png"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor      enfance histoire monde aventure" src="JPEG/hokusai_vague.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     avenir ciel monde vrai __livre" src="JPEG/hubert_reeves.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     enfance  histoire aventure vrai" src="JPEG/hubert_robert.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     enfance histoire monde vrai __livre __notredame" src="JPEG/hugo_ndp.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor      enfance histoire vrai _vinci" src="JPEG/joconde.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire histoire monde vrai __collection" src="JPEG/john_giorno.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     enfance histoire aventure vrai __typo" src="JPEG/johnston.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire avenir enfance ciel aventure etrange vrai" src="JPEG/jules_verne1.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    etrange __typo" src="JPEG/karloff.png"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret avenir monde etrange" src="JPEG/Kryptos.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire etrange __points" src="JPEG/kusama.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire enfance ciel aventure vrai __livre" src="JPEG/livre_etoiles.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde aventure  __photo __photo" src="JPEG/lunch_skyscraper.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance monde etrange __chateau" src="JPEG/magritte_chateau.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde etrange" src="JPEG/malevitch.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde etrange __photo" src="JPEG/manray.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire histoire monde etrange __collection" src="JPEG/manuscrit_voynich.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     enfance histoire etrange vrai __mort" src="JPEG/marat.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     monde etrange __photo" src="JPEG/martin_parr.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor      histoire monde etrange __typo" src="JPEG/mason_barnbrook.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor      monde __typo " src="JPEG/matrix_zuzanna.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor      enfance  histoire monde aventure etrange vrai __antiquite __mort" src="JPEG/momie.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire histoire monde etrange" src="JPEG/mondrian.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde __collection " src="JPEG/morris.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret  avenir enfance ciel histoire monde aventure etrange __photopionnier __photoespace" src="JPEG/nasa_lune.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire avenir ciel monde aventure etrange __collection" src="JPEG/nasa_posters2.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire avenir ciel histoire monde aventure etrange" src="JPEG/nazca.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret  enfance ciel monde aventure etrange  __photoespace " src="JPEG/nebuleuse.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire aventure vrai __livre" src="JPEG/neiges_kilimandjaro.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance histoire monde vrai __archi __eglise __notredame" src="JPEG/notre_dame.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance histoire monde aventure etrange vrai  __livre __antiquite" src="JPEG/odyssee.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire histoire etrange vrai __mort" src="JPEG/ophelia_millais.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde aventure vrai  __livre __collection" src="JPEG/penguin_classic.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   imaginaire avenir enfance ciel monde aventure etrange vrai  __livre" src="JPEG/petit_prince.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire avenir enfance ciel aventure vrai  __livre" src="JPEG/phaenomen.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   enfance histoire monde __photo" src="JPEG/picasso_doisneau.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire  enfance  histoire monde aventure __collection" src="JPEG/picsou_barks.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret  enfance histoire monde aventure vrai __antiquite" src="JPEG/pierre_rosette.png"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde etrange vrai  __livre" src="JPEG/pmillot_beckett1.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret imaginaire avenir enfance ciel monde aventure vrai  __livre" src="JPEG/princes_minuit.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire monde __typo" src="JPEG/Priori_barnbrook.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance monde aventure etrange vrai " src="JPEG/richard_long.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance  histoire monde  " src="JPEG/riches_heures_berry.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   histoire monde etrange __rodin __photo" src="JPEG/rodin_steinchen.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire __typo" src="JPEG/romain_roi.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance histoire monde etrange vrai __archi __eglise" src="JPEG/Sagrada_Familia.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire enfance aventure vrai  __livre" src="JPEG/seigneur_anneaux.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     enfance histoire monde vrai __archi __antiquite" src="JPEG/sol_pompei.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    histoire etrange __eglise" src="JPEG/soulages_conques.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   monde aventure etrange " src="JPEG/spiral_jetty.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   imaginaire monde aventure etrange vrai  __livre" src="JPEG/stjohn_perse2.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance histoire monde etrange vrai __typo" src="JPEG/tate_logo.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   imaginaire enfance aventure vrai  __livre" src="JPEG/terre_dragon.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   imaginaire enfance vrai  __livre" src="JPEG/trois_brigands.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   enfance histoire monde etrange vrai __collection __mort" src="JPEG/vanite.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   enfanc histoire monde __sculpturehumain __prehistoire __mort" src="JPEG/venus_willdendorf.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance histoire monde vrai __archi __chateau" src="JPEG/versailles.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   secret avenir ciel histoire monde etrange " src="JPEG/voyager.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor   imaginaire enfance ciel aventure " src="JPEG/voyageur_nuages.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     monde" src="JPEG/walker_art_center.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    enfance ciel histoire " src="JPEG/wright_planetaire.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor    imaginaire histoire monde aventure etrange vrai  __livre" src="JPEG/wuthering_heights.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+<div class="column">
+<img class="demo cursor     histoire monde vrai  __livre" src="JPEG/zola_oeuvre.jpg"   onclick="showAsSingleImage(this, true)" alt="">
+</div>
+       <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+    <script src="scripts/script_single.js" charset="utf-8"></script>
+    <script src="scripts/script_common.js" charset="utf-8"></script>
+ </body>
+</html>
